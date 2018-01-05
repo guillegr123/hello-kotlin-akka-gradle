@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hello-kotlin-akka-gradle.iml" filepath="$PROJECT_DIR$/.idea/modules/hello-kotlin-akka-gradle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hello-kotlin-akka-gradle_main.iml" filepath="$PROJECT_DIR$/.idea/modules/hello-kotlin-akka-gradle_main.iml" group="hello-kotlin-akka-gradle" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hello-kotlin-akka-gradle_test.iml" filepath="$PROJECT_DIR$/.idea/modules/hello-kotlin-akka-gradle_test.iml" group="hello-kotlin-akka-gradle" />
     </modules>
   </component>
 </project>
