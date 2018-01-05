@@ -10,7 +10,10 @@ class Greeter : AbstractActor() {
 
     override fun createReceive(): Receive {
         return receiveBuilder()
-                .match(Greeting::class.java, { msg: Greeting -> println("Hello ${msg.to}!") })
+                .matchAny { msg -> when (msg) {
+                    is Greeting -> println("Hello ${msg.to}!")
+                    else -> println("Unknown message received!")
+                } }
                 .build()
     }
 }
